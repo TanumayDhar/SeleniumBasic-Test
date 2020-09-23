@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="RadioButtonTest" verbose="1" >
+  <test name="Nopackage" >
+    <classes>
+       <class name=com.radioButton.test.RadioButton />
+    </classes>
+  </test>
+ 
+  
+</suite>
