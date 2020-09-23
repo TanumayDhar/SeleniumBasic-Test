@@ -1,4 +1,4 @@
-package com.radioButton.test;
+package com.PagesTesCases.test;
 
 import org.testng.annotations.Test;
 
