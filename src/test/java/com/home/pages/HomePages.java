@@ -32,14 +32,20 @@ public class HomePages extends InitialSetup{
 
 	}
 
-	public void alertHandle()
+	public void alertHandle() throws InterruptedException
 	{
 
 		WebElement alertclickelement =driver.findElement(By.id("name"));
+		
 		alertclickelement.sendKeys(sendKeysValue);
+		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@id='alertbtn']")).click();
-
-		driver.switchTo().alert().accept();
+		Thread.sleep(2000);
+		//driver.switchTo().alert().accept();
+		//driver.switchTo().alert().dismiss();
+		String alertText=driver.switchTo().alert().getText();
+		System.out.println(alertText);
+		driver.switchTo().alert().dismiss();
 
 
 	}

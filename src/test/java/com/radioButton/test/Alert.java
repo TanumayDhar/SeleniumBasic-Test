@@ -6,8 +6,8 @@ import com.home.pages.HomePages;
 
 public class Alert {
 	
-	@Test
-	public void alertHandle() throws InterruptedException
+	@Test(priority=1)
+	public void alertHandleAccept() throws InterruptedException
 	{
 		
 		HomePages alert=new HomePages();
