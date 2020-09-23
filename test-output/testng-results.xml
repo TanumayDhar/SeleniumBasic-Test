@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19958" started-at="2020-09-23T14:04:04 IST" finished-at="2020-09-23T14:04:24 IST">
+  <suite name="Default suite" duration-ms="26500" started-at="2020-09-23T14:22:30 IST" finished-at="2020-09-23T14:22:56 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19958" started-at="2020-09-23T14:04:04 IST" finished-at="2020-09-23T14:04:24 IST">
-      <class name="com.radioButton.test.CheckBox">
-        <test-method status="PASS" signature="checkBoxClick()[pri:0, instance:com.radioButton.test.CheckBox@3dfc5fb8]" name="checkBoxClick" duration-ms="19911" started-at="2020-09-23T14:04:04 IST" finished-at="2020-09-23T14:04:24 IST">
+    <test name="Default test" duration-ms="26500" started-at="2020-09-23T14:22:30 IST" finished-at="2020-09-23T14:22:56 IST">
+      <class name="com.radioButton.test.Alert">
+        <test-method status="PASS" signature="alertHandle()[pri:0, instance:com.radioButton.test.Alert@3dfc5fb8]" name="alertHandle" duration-ms="26457" started-at="2020-09-23T14:22:30 IST" finished-at="2020-09-23T14:22:56 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkBoxClick -->
-      </class> <!-- com.radioButton.test.CheckBox -->
+        </test-method> <!-- alertHandle -->
+      </class> <!-- com.radioButton.test.Alert -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
