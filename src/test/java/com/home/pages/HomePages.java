@@ -65,8 +65,24 @@ public class HomePages extends InitialSetup{
 		Thread.sleep(2000);
 		WebElement optionSelect= driver.findElement(By.xpath("//*[@id=\"block-1069048\"]/div/div/div/div[4]/div/fieldset/div/div/a[1]"));
 		optionSelect.click();
-		
+
 		System.out.println("Top selected");
+	}
+
+
+	public void frameSwitch() throws Exception
+	{
+		JavascriptExecutor js = (JavascriptExecutor)driver;  // scroll down
+		js.executeScript("window.scrollBy(0,1000)", "");
+		driver.switchTo().frame("courses-iframe");
+		System.out.println("Switched to Frame");
+		
+		
+		driver.findElement(By.xpath("//input[@id='search-courses']")).sendKeys("Automation");
+		Thread.sleep(2000);
+		
+		driver.findElement(By.xpath("//button[@id='search-course-button']")).click();
+		
 	}
 
 
