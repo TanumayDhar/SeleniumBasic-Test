@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27366" started-at="2020-09-23T13:33:34 IST" finished-at="2020-09-23T13:34:01 IST">
+  <suite name="Default suite" duration-ms="25550" started-at="2020-09-23T13:57:10 IST" finished-at="2020-09-23T13:57:35 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27366" started-at="2020-09-23T13:33:34 IST" finished-at="2020-09-23T13:34:01 IST">
-      <class name="com.radioButton.test.RadioButton">
-        <test-method status="PASS" signature="RadioButtonClick()[pri:0, instance:com.radioButton.test.RadioButton@3dfc5fb8]" name="RadioButtonClick" duration-ms="27331" started-at="2020-09-23T13:33:34 IST" finished-at="2020-09-23T13:34:01 IST">
+    <test name="Default test" duration-ms="25550" started-at="2020-09-23T13:57:10 IST" finished-at="2020-09-23T13:57:35 IST">
+      <class name="com.radioButton.test.DropDown">
+        <test-method status="PASS" signature="dropDownselect()[pri:0, instance:com.radioButton.test.DropDown@3dfc5fb8]" name="dropDownselect" duration-ms="25504" started-at="2020-09-23T13:57:10 IST" finished-at="2020-09-23T13:57:35 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- RadioButtonClick -->
-      </class> <!-- com.radioButton.test.RadioButton -->
+        </test-method> <!-- dropDownselect -->
+      </class> <!-- com.radioButton.test.DropDown -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.radioButton.test.RadioButton">
+      <class name="com.radioButton.test.DropDown">
         <methods>
-          <include name="RadioButtonClick"/>
+          <include name="dropDownselect"/>
         </methods>
-      </class> <!-- com.radioButton.test.RadioButton -->
+      </class> <!-- com.radioButton.test.DropDown -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
