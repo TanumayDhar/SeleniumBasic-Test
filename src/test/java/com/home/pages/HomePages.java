@@ -4,6 +4,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 
+
+
 public class HomePages extends InitialSetup{
 
 
@@ -22,6 +24,17 @@ public class HomePages extends InitialSetup{
 		Select dropdownValue =new Select(dropDwn);
 		dropdownValue.selectByVisibleText("Benz");
 
+
+	}
+
+
+
+	public void checkBoxClick()
+	{
+
+		WebElement checkBox= driver.findElement(By.xpath("//input[@id='hondacheck']"));
+		
+		checkBox.click();
 
 	}
 

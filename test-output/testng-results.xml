@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25550" started-at="2020-09-23T13:57:10 IST" finished-at="2020-09-23T13:57:35 IST">
+  <suite name="Default suite" duration-ms="19958" started-at="2020-09-23T14:04:04 IST" finished-at="2020-09-23T14:04:24 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25550" started-at="2020-09-23T13:57:10 IST" finished-at="2020-09-23T13:57:35 IST">
-      <class name="com.radioButton.test.DropDown">
-        <test-method status="PASS" signature="dropDownselect()[pri:0, instance:com.radioButton.test.DropDown@3dfc5fb8]" name="dropDownselect" duration-ms="25504" started-at="2020-09-23T13:57:10 IST" finished-at="2020-09-23T13:57:35 IST">
+    <test name="Default test" duration-ms="19958" started-at="2020-09-23T14:04:04 IST" finished-at="2020-09-23T14:04:24 IST">
+      <class name="com.radioButton.test.CheckBox">
+        <test-method status="PASS" signature="checkBoxClick()[pri:0, instance:com.radioButton.test.CheckBox@3dfc5fb8]" name="checkBoxClick" duration-ms="19911" started-at="2020-09-23T14:04:04 IST" finished-at="2020-09-23T14:04:24 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dropDownselect -->
-      </class> <!-- com.radioButton.test.DropDown -->
+        </test-method> <!-- checkBoxClick -->
+      </class> <!-- com.radioButton.test.CheckBox -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
